@@ -1,0 +1,62 @@
+html {
+    background: #100a1c;
+    background-image:
+      radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+      radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+    background-attachment: fixed;
+    color: #6cacc5;
+  }
+  
+  body {
+    color: #6cacc5;
+    font: 300 18px/1.6 "Source Sans Pro",sans-serif;
+    margin: 0;
+    padding: 5em 0 2em;
+    text-align: center;
+  }
+  .display {
+    background-color: #222;
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 20px;
+    text-align: right;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    min-height: 50px;
+}
+  h1 {
+    font-weight: 300;
+    margin: 0;
+  }
+  .calculator {
+    font-size: 28px;
+    margin: 0 auto;
+    width: 10em;
+    button {
+        border: 0;
+        background: rgba(42,50,113, .28);
+        color: #6cacc5;
+        cursor: pointer;
+        float: left;
+        font: inherit;
+        margin: 0.25em;
+        width: 2em;
+        height: 2em;
+        transition: all 0.5s;
+        /* Button hover effect */
+      .btn:hover {
+        background-color: #ddd;
+       }
+        &:hover {
+          background: #201e40;
+        }
+        @media (min-width: 420px) {
+            .calculator {
+              width: 12em;
+            }
+            .viewer {
+              width: 8.5em;
+            }
+            button {
+              margin: 0.5em;
+            }
